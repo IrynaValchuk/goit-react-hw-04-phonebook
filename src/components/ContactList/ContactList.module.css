@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color-gray);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--bg-gray);
+}

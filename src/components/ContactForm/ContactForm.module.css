@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input {
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color-gray);
+  cursor: pointer;
+  transition: box-shadow 0.25s ease;
+}
+
+.btn {
+  padding: 5px 15px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--border-color-gray);
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--bg-gray);
+}
